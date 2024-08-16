@@ -4,7 +4,6 @@ public:
         vector<int> ans;
         for(int i=0; i<nums.size(); i++){
             int t=target-nums[i];
-            //int p=target-nums[i];
             for(int j=i+1; j<nums.size(); j++){
                 if(nums[j]==t){
                     ans.push_back(i);
@@ -12,7 +11,6 @@ public:
                     break;
                 }
             }
-            //cout<<"a";
         }
         return ans;
     }
