@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+//----------------------------------------Solution 1----------------------------------------
 class Solution {
 public:
     int length(ListNode* head){
@@ -30,3 +31,17 @@ public:
         return ans;
     }
 };
+
+
+//----------------------------------------Solution 2----------------------------------------
+// class Solution {
+// public:
+//     int getDecimalValue(ListNode* head) {
+//         int ans=0;
+//         while(head!=NULL){
+//             ans=(ans*2)+head->val;
+//             head=head->next;
+//         }
+//         return ans;
+//     }
+// };
