@@ -1,3 +1,4 @@
+// Optimal solution- using Merge sort
 class Solution {
 public:
     int c = 0;
